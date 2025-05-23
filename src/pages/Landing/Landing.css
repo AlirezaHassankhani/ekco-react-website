@@ -1,0 +1,35 @@
+/* 
+====== start section two ======
+*/
+.card-box {
+    position: relative;
+    overflow: hidden;
+}
+
+.card-box::after {
+    position: absolute;
+    content: '';
+    width: 150px;
+    height: 150px;
+    background-color: var(--secondary-color);
+    border-radius: var(--box-border);
+    opacity: 0.3;
+    left: -30px;
+    bottom: -30px;
+    transform: rotate(65deg);
+}
+
+.card-header__icon {
+    font-size: 15px;
+    padding: 1rem;
+    border-radius: var(--box-border);
+}
+
+.card-body__icon {
+    font-size: 13px;
+    padding: 4px;
+}
+
+.card-body__text {
+    font-size: 14px;
+}

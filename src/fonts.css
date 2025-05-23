@@ -1,0 +1,21 @@
+@font-face {
+    font-family: iransans;
+    src: url(./../public/fonts/Iran-Sans/ttf/iransansdn.ttf) format('truetype'),
+         url(./../public/fonts/Iran-Sans/woff/iransansdn.woff) format('woff'),
+         url(./../public/fonts/Iran-Sans/woff2/iransansdn.woff2) format('woff2'),
+         url(./../public/fonts/Iran-Sans/eot/iransansdn.eot) format('embedded-opentype');
+}
+@font-face {
+    font-family: iransans-light;
+    src: url(./../public/fonts/Iran-Sans/ttf/iransansdnlight.ttf) format('truetype'),
+         url(./../public/fonts/Iran-Sans/woff/iransansdnlight.woff) format('woff'),
+         url(./../public/fonts/Iran-Sans/woff2/iransansdnlight.woff2) format('woff2'),
+         url(./../public/fonts/Iran-Sans/eot/iransansdnlight.eot) format('embedded-opentype');
+}
+@font-face {
+    font-family: iransans-bold;
+    src: url(./../public/fonts/Iran-Sans/ttf/iransansdnbold.ttf) format('truetype'),
+         url(./../public/fonts/Iran-Sans/woff/iransansdnbold.woff) format('woff'),
+         url(./../public/fonts/Iran-Sans/woff2/iransansdnbold.woff2) format('woff2'),
+         url(./../public/fonts/Iran-Sans/eot/iransansdnbold.eot) format('embedded-opentype');
+}

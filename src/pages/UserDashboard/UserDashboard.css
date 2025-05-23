@@ -1,0 +1,15 @@
+.recharts-responsive-container {
+    width: 250px !important;
+    height: 180px !important;
+    display: block;
+    margin: auto;
+}
+
+.user-dashdord__icon {
+    font-size: 40px;
+    transition: all 100ms;
+}
+
+.user-dashdord__icon:hover {
+    transform: scale(1.5);
+}

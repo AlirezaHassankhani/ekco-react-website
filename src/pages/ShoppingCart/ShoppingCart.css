@@ -1,0 +1,18 @@
+.cart-box__right {
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-size);
+}
+
+.cart-box__left {
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-size);
+}
+
+.product-box__image {
+    border-radius: var(--border-size);
+    overflow: hidden;
+}
+
+.product-box__offprice {
+    font-size: 11px;
+}

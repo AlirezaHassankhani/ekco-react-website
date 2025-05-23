@@ -1,0 +1,39 @@
+.header-panel__icons{
+    margin-right: -6px;
+}
+
+.header-panel__icons a:first-child{
+    padding: 6px 10px;
+}
+
+.header-panel__icons a:hover {
+    background-color: #eee;
+}
+
+.wrapper-panel {
+    margin-top: 80px;
+    width: 100%;
+    height: 100vh;
+}
+
+.sidebar-panel {
+    background-color: #212529;
+    position: fixed;
+    top: 80px;
+    bottom: 0;
+    transition: right 300ms;
+}
+
+.sidebar-menu__list {
+    border-radius: var(--border-size);
+    transition: all 300ms;
+}
+
+.sidebar-menu__list:hover {
+    color: #FFFFFF !important;
+    background-color: #4527a0;
+}
+
+.main-panel {
+    margin-top: 30px;
+}

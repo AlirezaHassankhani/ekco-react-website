@@ -1,0 +1,105 @@
+.header__content {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.header__content::after {
+    position: absolute;
+    content: '';
+    width: 250px;
+    height: 250px;
+    border-radius: var(--box-border);
+    top: -86px;
+    left: -95px;
+    background-color: var(--secondary-color);
+    opacity: 0.3;
+    z-index: -999;
+    transform: rotate(45deg);
+}
+
+.header__content::before {
+    position: absolute;
+    content: '';
+    width: 250px;
+    height: 250px;
+    border-radius: var(--box-border);
+    bottom: -86px;
+    right: -95px;
+    background-color: #dddddd38;
+    z-index: -999;
+}
+/*
+.header__link {
+    // hover
+}
+*/
+.header__login, .header__basket {
+    padding: 0.5rem 1.5rem !important;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 500ms;
+}
+
+.header__image {
+    border-radius: var(--border-size);
+}
+
+.header__icon-phone {
+    font-size: 16px;
+    padding: 0.4rem 0.9rem;
+}
+
+.phone-menu {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: #FFFFFF;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: 999;
+    transition: all 500ms;
+}
+
+.phone-menu__search-box {
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0.4rem 0.5rem;
+    border-radius: var(--border-size);
+}
+
+.phone-menu__search-box input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.phone-menu__group-btn {
+    min-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.phone-menu__group-btn a {
+    padding: 0.4rem 0.5rem;
+    border-radius: var(--border-size);
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    width: 8% !important;
+}
+
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+    font-size: 26px;
+}
+
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+    font-size: 26px;
+}

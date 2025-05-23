@@ -1,0 +1,5 @@
+.contact-box__input {
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-size);
+    outline: none;
+}

@@ -1,0 +1,4 @@
+.sign-form__box-input {
+    --text-color: #506690;
+    color: var(--text-color);
+}

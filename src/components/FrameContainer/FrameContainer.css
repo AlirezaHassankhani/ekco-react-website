@@ -1,0 +1,20 @@
+.frame-container {
+    border-radius: var(--border-size);
+    box-shadow: var(--box-shadow);
+}
+
+.frame-container__header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.frame-container__header::before {
+    position: absolute;
+    content: '';
+    width: 5px;
+    height: 25px;
+    right: 0px;
+    background-color: var(--primary-color);
+}

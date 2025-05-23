@@ -1,0 +1,171 @@
+@import url(./fonts.css);
+
+:root {
+  --box-shadow: 0 0.4rem 1.5rem rgba(0, 0, 0, 0.1);
+  --box-border: 100% 50% 50% 100% / 75% 69% 69% 75%;
+  --border-size: 8px;
+  --border-color: #dee2e6;
+  --secondary-color: #DDDDDD;
+  --primary-color: #4527a0;
+  --info-color: #03a9f4;
+}
+
+html {
+  box-sizing: border-box !important;
+}
+
+body {
+  overflow-x: hidden !important;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.size-6 {
+    width: calc(0.25rem * 6);
+    height: calc(0.25rem * 6);
+}
+
+input, textarea, select {
+  outline: none !important;
+}
+
+.ir {
+  font-family: iransans !important;
+}
+
+.ir-light {
+  font-family: iransans-light !important;
+}
+
+.ir-bold {
+  font-family: iransans-bold !important;
+}
+
+.shadow {
+  box-shadow: var(--box-shadow) !important;
+}
+
+.rounded-dominant {
+  border-radius: var(--border-size) !important;
+}
+
+.fs-dominant {
+  font-size: 14px !important;
+}
+
+.btn-primary {
+  color: #FFFFFF !important;
+  background-color: var(--primary-color) !important;
+  border: none !important;
+}
+
+.btn-primary:hover {
+  background-color: #410e83 !important;
+}
+
+.btn-info {
+  color: #FFFFFF !important;
+  background-color: var(--info-color) !important;
+  border: none !important;
+}
+
+.btn-info:hover {
+  background-color: #36c0ff !important;
+}
+
+.btn-special {
+  --btn-color: #0648B3;
+  background-color: var(--btn-color) !important;
+}
+
+.btn-special:hover {
+  --hovor-btn-color: #05398e;
+  background-color: var(--hovor-btn-color) !important;
+}
+
+.bg-primary {
+  background-color: #4527a0 !important;
+}
+
+.bg-secondary {
+  background-color: #f7fafc !important;
+}
+
+.bg-purple {
+  background-color: #e6d9f1 !important;
+}
+
+.bg-gary {
+  background-color: #ededed !important;
+}
+
+.bg-soft {
+  background-color: #f4f6fc !important;
+}
+
+.text-black {
+  color: #727272 !important;
+}
+
+.text-primary {
+  color: #4527a0 !important;
+}
+
+.text-lb {
+  color: #506690 !important;
+}
+
+.text-soft {
+  color: #adb5bd !important;
+}
+
+
+.card {
+  border-radius: var(--border-size) !important;
+  overflow: hidden;
+  border: none;
+  box-shadow: var(--box-shadow);
+}
+
+.card-header {
+  background-color: #FFFFFF;
+  border: none;
+}
+
+.card-footer {
+  background-color: #FFFFFF;
+  border: none;
+}
+
+.accordion-item {
+  overflow: auto;
+  border-radius: 8px;
+  box-shadow: var(--box-shadow);
+  border: none;
+  margin-bottom: 1.25rem;
+}
+
+.accordion-button {
+  font-size: 13px;
+  column-gap: 1px;
+}
+
+.accordion-body {
+  font-size: 14px;
+}
+
+.swal2-title {
+  font-family: 'iransans';
+}
+
+.swal2-confirm {
+  font-family: 'iransans-light'
+}

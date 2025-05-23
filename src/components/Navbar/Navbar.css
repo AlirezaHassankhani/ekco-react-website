@@ -1,0 +1,31 @@
+.header__content-navbar {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.header__content-navbar::after {
+    position: absolute;
+    content: '';
+    width: 150px;
+    height: 150px;
+    border-radius: var(--box-border);
+    top: -86px;
+    left: -70px;
+    background-color: var(--secondary-color);
+    opacity: 0.3;
+    z-index: -999;
+    transform: rotate(45deg);
+}
+
+.header__content-navbar::before {
+    position: absolute;
+    content: '';
+    width: 150px;
+    height: 150px;
+    border-radius: var(--box-border);
+    bottom: -86px;
+    right: -70px;
+    background-color: #dddddd38;
+    z-index: -999;
+}

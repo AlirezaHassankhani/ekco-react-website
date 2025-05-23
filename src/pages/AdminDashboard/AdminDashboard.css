@@ -1,0 +1,42 @@
+.admin-panel-icon__one {
+    color: #3fc7df;
+}
+
+.admin-panel-icon__two {
+    color: #53a96b;;
+}
+
+.admin-panel-icon__three {
+    color: #f83b2e;
+}
+
+.admin-panel-icon__four {
+    color: #0648B3;
+}
+
+.admin-panel-icon__one,
+.admin-panel-icon__two,
+.admin-panel-icon__three,
+.admin-panel-icon__four {
+    opacity: 0.7;
+    font-size: 45pt;
+    transition: all 300ms;
+}
+
+.admin-panel-icon__one:hover {
+    transform: scale(1.3);
+    opacity: 1;
+}
+.admin-panel-icon__two:hover {
+    transform: scale(1.3);
+    opacity: 1;
+}
+.admin-panel-icon__three:hover {
+    transform: scale(1.3);
+    opacity: 1;
+}
+
+.admin-panel-icon__four:hover {
+    transform: scale(1.3);
+    opacity: 1;
+}

@@ -1,0 +1,21 @@
+.test-card__text {
+    font-size: 13px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.test-card__price {
+    position: relative;
+}
+
+.test-card__price::after {
+    position: absolute;
+    top: -14px;
+    right: 0;
+    content: '300,000';
+    font-size: 12px;
+    text-decoration: line-through;
+}
+
+.test-card__btn:hover {
+    background-color: #410e83 !important;
+}
